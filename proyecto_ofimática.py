@@ -1,4 +1,3 @@
-#Calculadora
 def sumar(a, b):
     return a + b
 def restar(a, b):
@@ -19,7 +18,7 @@ while True:
         print("4. Dividir")
         print("5. Salir")
         
-        opcion = input("Ingrese la opción (1/2/3/4/5): ")
+        opcion = input("Ingrese la opción: ")
         
         if opcion == '5':
             print("Saliendo de la calculadora.")
